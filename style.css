@@ -281,7 +281,7 @@ nav ul li a:hover {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
 }
 
 /*
@@ -304,17 +304,14 @@ nav ul li a:hover {
 }
 
 .contact_desc {
-    background-color: #0378A6;
-    color: white;
+    color: #0378A6;
     font-size: 1.2em;
-    padding: 15px 35px;
     margin: 0px 60px;
-    border-radius: 30px;
     display: inline-block;
     font-weight: 500;
     max-width: 600px;
     line-height: 1.6em;
-    text-align: left;
+    text-align: center;
     font-family: 'Lora', serif;
 }
 
