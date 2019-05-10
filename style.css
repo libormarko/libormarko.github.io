@@ -148,8 +148,8 @@ nav ul li a:hover {
 }
 
 .blogposts {            /* Creating space above the target of a jump link. */
-  padding-top: 60px;
-  margin-top: 0px;
+    padding-top: 60px;
+    margin-top: 0px;
 }
 
 .blogposts_tiles {
