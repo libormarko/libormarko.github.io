@@ -70,7 +70,6 @@ nav ul li a:hover {
 
 .section_name {
     text-transform: uppercase;
-    padding-bottom: 20px;
     color: #03588C;
     font-family: 'Lora', serif;
 }
@@ -136,11 +135,13 @@ nav ul li a:hover {
 /* blog */
 
 .blogposts {
-    height: 100vh;
+    height: 130vh;
     min-height: 800px;
     background-color: white;
     width: 100%;
     color: #0378A6;
+    overflow: scroll;
+    display: block;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -156,22 +157,13 @@ nav ul li a:hover {
     width: 50vw;
     min-width: 450px;
     padding: 2em;
-    display: block;
-    overflow: hidden;
-    overflow-y: scroll;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding-top: 110px;
-    margin-top: -20px;
 }
 
 .blogpost_tile {
     display: flex;
     flex-direction: row;
-    align-items: flex-start;
-    justify-content: flex-start;
+    align-items: flex-end;
+    justify-content: center;
     padding: 15 0px;
 }
 
@@ -186,7 +178,6 @@ nav ul li a:hover {
 .blogpost_tile:hover {
     background: #BACDD9;
     border-style: solid;
-    border-width: 2px;
     border-color: #BACDD9;
     border-radius: 10px;
     padding: 10px;
@@ -202,13 +193,11 @@ nav ul li a:hover {
 }
 
 .blogpost_header {
-    margin-top: 1.5em;
     text-align: left;
 }
 
 .blogpost_desc {
     text-align: left;
-    margin-top: 0.3em;
 }
 
 /* projects */
