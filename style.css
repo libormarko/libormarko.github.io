@@ -162,7 +162,7 @@ nav ul li a:hover {
 .blogpost_tile {
     display: flex;
     flex-direction: row;
-    align-items: flex-end;
+    align-items: flex-start;
     justify-content: center;
     padding: 15 0px;
 }
