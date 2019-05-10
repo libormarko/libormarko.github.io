@@ -298,10 +298,9 @@ nav ul li a:hover {
 .contact_details:hover {
     background: #BACDD9;
     border-style: solid;
-    border-width: 2px;
-    border-color: #BACDD9;
+    border-width: 0px;
     border-radius: 10px;
-    padding: 10px;
+    padding: 0px 10px;
 }
 
 .contact_desc {
