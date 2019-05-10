@@ -291,7 +291,7 @@ nav ul li a:hover {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 /*
@@ -319,7 +319,7 @@ nav ul li a:hover {
     color: white;
     font-size: 1.2em;
     padding: 15px 35px;
-    margin: 120px 60px;
+    margin: 0px 60px;
     border-radius: 30px;
     display: inline-block;
     font-weight: 500;
