@@ -178,6 +178,7 @@ nav ul li a:hover {
 .blogpost_tile:hover {
     background: #BACDD9;
     border-style: solid;
+    border-width: 0px;
     border-color: #BACDD9;
     border-radius: 10px;
     padding: 10px;
@@ -255,10 +256,10 @@ nav ul li a:hover {
 .project_links a:hover {
     background: #BACDD9;
     border-style: solid;
-    border-width: 2px;
+    border-width: 0px;
     border-color: #BACDD9;
     border-radius: 10px;
-    padding: 10px;
+    padding: 0px 15px;
 }
 
 .project_links a {
