@@ -1,0 +1,330 @@
+<style>
+/* global element styling */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,body {
+    font-family: 'Source Sans Pro', sans-serif;
+    text-align: center;
+    width: 100%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Lora', serif;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* navigation bar */
+
+.header {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    background-color: #03588C;
+    min-width: 650px;
+}
+
+nav ul {
+    text-align: right;
+    padding-right: 20px;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 15px 45px;
+}
+
+@media (max-width: 600px) {
+    nav ul {
+        text-align: left;
+        padding: 0px;
+    }
+
+    nav ul li {
+        margin: 15px 30px;
+    }
+}
+
+nav ul li a {
+    color: white;
+    font-weight: 700;
+    font-family: 'Lora', serif;
+    text-transform: uppercase;
+}
+
+nav ul li a:hover {
+  color: #BACDD9;
+}
+
+.section_name {
+    text-transform: uppercase;
+    text-decoraton: underline overline;
+    padding-bottom: 20px;
+    color: #03588C;
+    font-family: 'Lora', serif;
+}
+
+/* welcome section */
+
+.intro {
+    height: 100vh;
+    min-height: 700px;   
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.intro::before {
+    background-image: url("https://images.pexels.com/photos/1068523/pexels-photo-1068523.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260");
+    background-size: cover;
+    background-position: center;
+    min-height: 700px; 
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.35;
+}
+
+.photo_me {
+    width: 40%;
+    border-color: #0378A6;
+    border-width: 20px;
+    border-style: double;
+    border-radius: 50%;
+    margin-top: 100px;
+}
+
+.intro_text {
+    display: flex;
+    flex-direction: column;
+}
+
+.intro_text {
+    background-color: #0378A6;
+    color: white;
+    display: inline-block;
+    font-size: 1.3em;
+    padding: 10px 25px;
+    margin: 10px 40px;
+    border-radius: 0.9em;
+    font-weight: 400;
+    max-width: 700px;
+    line-height: 1.6em;
+    text-align: left;
+    font-family: 'Lora', serif;
+}
+
+/* blog */
+
+.blogposts {
+    height: 100vh;
+    min-height: 800px;
+    background-color: white;
+    width: 100%;
+    color: #0378A6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.blogposts {            /* Creating space above the target of a jump link. */
+  padding-top: 60px;
+  margin-top: 0px;
+}
+
+.blogposts_tiles {
+    width: 50vw;
+    min-width: 450px;
+    padding: 2em;
+    display: block;
+    overflow: hidden;
+    overflow-y: scroll;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 110px;
+    margin-top: -20px;
+}
+
+.blogpost_tile {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 15 0px;
+}
+
+.blogpost_tile a {
+    color: #0378A6;
+}
+
+.blogpost_tile a:visited {
+    color: #3E768C;
+}
+
+.blogpost_tile:hover {
+    background: #BACDD9;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #BACDD9;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.blogpost_pic {
+    width: 150px;
+    height: auto;
+}
+
+.blogpost_text {
+    margin-left: 10px;
+}
+
+.blogpost_header {
+    margin-top: 1.5em;
+    text-align: left;
+}
+
+.blogpost_desc {
+    text-align: left;
+    margin-top: 0.3em;
+}
+
+/* projects */
+
+.work {
+    height: 100vh;
+    min-height: 800px;
+    background-color: #8FBDD9;
+    overflow: scroll;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding-bottom: 50px;
+}
+
+.work {             /* Creating space above the target of a jump link. */
+  padding-top: 60px;
+}
+
+.project_tile {
+    display: inline-block;
+    overflow: hidden;
+    padding: 20px;
+}
+
+.project_pic {
+    height: 200px;
+    width: auto;
+    margin: 0px 10px;
+    border-style: solid;
+    border-color: white;
+    border-width: 1px;
+    border-radius: 5px;
+}
+
+.project_grid {
+    display: flex;
+    flex-direction: column;
+}
+
+.project_title {
+    font-weight: 400;
+    margin: 10px 0px 10px 0px;
+}
+
+.project_links {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.project_links a:hover {
+    background: #BACDD9;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #BACDD9;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.project_links a {
+    color: #A65903;
+    margin: 0px 20px;
+    text-decoration: underline;
+}
+
+.JavaScript_projects {
+    padding-top: 30px;
+}
+
+/* contact */
+
+.contact {
+    height: 100vh;
+    min-height: 700px; 
+    background-color: white;
+}
+
+.contact {              /* Creating space above the target of a jump link. */
+    padding-top: 60px;
+}
+
+.contact_details {
+    margin: 25px;
+    display: inline-block;
+}
+
+.contact_details:hover {
+    background: #BACDD9;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #BACDD9;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.contact_desc {
+    background-color: #0378A6;
+    color: white;
+    font-size: 1.2em;
+    padding: 15px 35px;
+    margin: 120px 60px;
+    border-radius: 30px;
+    display: inline-block;
+    font-weight: 500;
+    max-width: 600px;
+    line-height: 1.6em;
+    text-align: left;
+    font-family: 'Lora', serif;
+}
+
+.desc a {
+    color: #0378A6;
+}
+
+</style>
