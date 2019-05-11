@@ -13,7 +13,6 @@ This is my web development project. I built this personal portfolio webpage with
 * HTML5
 * CSS3
 * CSS Flexbox
-* Media Queries
 
 ## Setup and Run
 1. Download the project files
