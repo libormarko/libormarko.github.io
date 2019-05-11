@@ -11,7 +11,8 @@ This is my web development project. I built this personal portfolio webpage with
 
 ## Technologies used
 * HTML5
-* CSS3, CSS Flexbox
+* CSS3
+* CSS Flexbox
 * Media Queries
 
 ## Setup and Run
