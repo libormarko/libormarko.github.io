@@ -8,6 +8,7 @@
 html,body {
     font-family: 'Source Sans Pro', sans-serif;
     text-align: center;
+    font-size: 16px;
     width: 100%;
     margin: 0px;
     padding: 0px;
@@ -155,7 +156,7 @@ nav ul li a:hover {
 
 .blogposts_tiles {
     width: 50vw;
-    min-width: 450px;
+    min-width: 650px;
     padding: 2em;
 }
 
