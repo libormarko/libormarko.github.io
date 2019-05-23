@@ -155,8 +155,9 @@ nav ul li a:hover {
 }
 
 .blogposts_tiles {
-    width: 50vw;
+    width: 60vw;
     min-width: 650px;
+    max-width: 750px;
     padding: 2em;
 }
 
