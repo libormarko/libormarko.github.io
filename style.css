@@ -335,7 +335,7 @@ nav ul li a:hover {
 
     .intro_text {
         font-size: 3rem;
-        line-height: 1.5;
+        line-height: 1.6;
         padding: 2rem;
     }
 
@@ -364,7 +364,7 @@ nav ul li a:hover {
 
     .contact_desc {
         font-size: 3.15rem;
-        line-height: 1.5;
+        line-height: 1.65;
         max-width: 100rem;
     }
 }
