@@ -50,14 +50,21 @@ nav ul li {
     margin: 15px 45px;
 }
 
+/* for mobile phones */
 @media screen and (max-device-width:414px), screen and (max-width:414px) {
+    .header {
+        min-height : 23rem;
+    }
+
     nav ul {
-        text-align: left;
-        padding: 0px;
+        text-align: center;
+        padding: 0;
     }
 
     nav ul li {
-        margin: 15px 30px;
+        display: block;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
     }
 }
 
