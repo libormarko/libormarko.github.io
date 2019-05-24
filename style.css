@@ -321,7 +321,7 @@ nav ul li a:hover {
     }
 
     .header {
-        font-size: 3.5rem;
+        font-size: 3.2rem;
     }
 
     nav ul {
@@ -334,8 +334,8 @@ nav ul li a:hover {
     }
 
     .intro_text {
-        font-size: 4rem;
-        line-height: 1.375;
+        font-size: 3rem;
+        line-height: 1.5;
         padding: 2rem;
     }
 
@@ -353,7 +353,7 @@ nav ul li a:hover {
     }
 
     .blogpost_pic {
-        width: 200px;
+        width: 20rem;
         height: auto;
         padding-top: 1.5rem;
     }
@@ -363,8 +363,8 @@ nav ul li a:hover {
     }
 
     .contact_desc {
-        font-size: 4rem;
-        line-height: 1.375;
+        font-size: 3rem;
+        line-height: 1.5;
         max-width: 100rem;
     }
 }
