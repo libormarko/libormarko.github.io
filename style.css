@@ -160,7 +160,7 @@ nav ul li a:hover {
 
 @media screen and (max-device-width:414px), screen and (max-width:414px) {
     .blogposts {
-        padding-top: 170px;
+        padding-top: 210px;
     }
 }
 
@@ -235,7 +235,7 @@ nav ul li a:hover {
 /* for mobile phones */
 @media screen and (max-device-width:414px), screen and (max-width:414px) {
     .work {             /* Creating space above the target of a jump link. */
-        padding-top: 170px;
+        padding-top: 210px;
     }
 }
 
