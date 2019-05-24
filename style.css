@@ -355,7 +355,7 @@ nav ul li a:hover {
     .blogpost_pic {
         width: 20rem;
         height: auto;
-        padding-top: 1.5rem;
+        padding: 1.5rem;
     }
 
     .work {             /* Creating space above the target of a jump link. */
