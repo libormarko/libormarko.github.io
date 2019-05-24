@@ -50,7 +50,7 @@ nav ul li {
     margin: 15px 45px;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 414px) {
     nav ul {
         text-align: left;
         padding: 0px;
