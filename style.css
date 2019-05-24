@@ -50,18 +50,6 @@ nav ul li {
     margin: 15px 45px;
 }
 
-/* for mobile phones */
-@media screen and (max-device-width:414px), screen and (max-width:414px) {
-    nav ul {
-        text-align: center;
-        padding: 0;
-    }
-
-    nav ul li {
-        display: block;
-    }
-}
-
 nav ul li a {
     color: white;
     font-weight: 700;
@@ -158,13 +146,6 @@ nav ul li a:hover {
     margin-top: 0px;
 }
 
-@media screen and (max-device-width:414px), screen and (max-width:414px) {
-    .blogposts {
-        padding-top: 210px;
-        margin-top: -210px;
-    }
-}
-
 .blogposts_tiles {
     width: 60vw;
     min-width: 650px;
@@ -231,13 +212,6 @@ nav ul li a:hover {
 
 .work {             /* Creating space above the target of a jump link. */
   padding-top: 60px;
-}
-
-/* for mobile phones */
-@media screen and (max-device-width:414px), screen and (max-width:414px) {
-    .work {             /* Creating space above the target of a jump link. */
-        padding-top: 210px;
-    }
 }
 
 .project_tile {
@@ -337,4 +311,60 @@ nav ul li a:hover {
 
 .desc a {
     color: #0378A6;
+}
+
+/* for mobile phones */
+@media screen and (max-device-width:414px), screen and (max-width:414px) {
+    body {
+        font-size: 3rem;
+        line-height: 1.375;
+    }
+
+    .header {
+        font-size: 3.5rem;
+    }
+
+    nav ul {
+        text-align: center;
+        padding: 0;
+    }
+
+    nav ul li {
+        display: block;
+    }
+
+    .intro_text {
+        font-size: 4rem;
+        line-height: 1.375;
+        padding: 2rem;
+    }
+
+    .blogposts {        /* Creating space above the target of a jump link. */
+        padding-top: 30rem;
+        margin-top: -30rem;
+    }
+
+    .blogposts_tiles {
+        width: 100rem;
+    }
+
+    .blogpost_tile {
+        padding: 2rem 0rem;
+    }
+
+    .blogpost_pic {
+        width: 200px;
+        height: auto;
+        padding-top: 1.5rem;
+    }
+
+    .work {             /* Creating space above the target of a jump link. */
+        padding-top: 30rem;
+    }
+
+    .contact_desc {
+        font-size: 4rem;
+        line-height: 1.375;
+        max-width: 100rem;
+    }
 }
