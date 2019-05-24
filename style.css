@@ -316,12 +316,12 @@ nav ul li a:hover {
 /* for mobile phones */
 @media screen and (max-device-width:414px), screen and (max-width:414px) {
     body {
-        font-size: 3rem;
-        line-height: 1.375;
+        font-size: 3.5rem;
+        line-height: 1.5;
     }
 
     .header {
-        font-size: 3.2rem;
+        font-size: 3.75rem;
     }
 
     nav ul {
@@ -334,8 +334,8 @@ nav ul li a:hover {
     }
 
     .intro_text {
-        font-size: 3rem;
-        line-height: 1.6;
+        font-size: 4rem;
+        line-height: 1.7;
         padding: 2rem;
     }
 
@@ -363,8 +363,8 @@ nav ul li a:hover {
     }
 
     .contact_desc {
-        font-size: 3.15rem;
-        line-height: 1.65;
+        font-size: 4rem;
+        line-height: 1.7;
         max-width: 100rem;
     }
 }
