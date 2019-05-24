@@ -1,6 +1,6 @@
 /* global element styling */
 :root {
-    font-size: 62.5%
+    font-size: 62.5%        /* 62.5% of 16px is 10px, which makes 1rem = 10px */
 }
 
 * {
@@ -52,10 +52,6 @@ nav ul li {
 
 /* for mobile phones */
 @media screen and (max-device-width:414px), screen and (max-width:414px) {
-    .header {
-        min-height : 23rem;
-    }
-
     nav ul {
         text-align: center;
         padding: 0;
@@ -63,8 +59,6 @@ nav ul li {
 
     nav ul li {
         display: block;
-        padding-top: 1rem;
-        padding-bottom: 1rem;
     }
 }
 
@@ -164,6 +158,12 @@ nav ul li a:hover {
     margin-top: 0px;
 }
 
+@media screen and (max-device-width:414px), screen and (max-width:414px) {
+    .blogposts {
+        padding-top: 170px;
+    }
+}
+
 .blogposts_tiles {
     width: 60vw;
     min-width: 650px;
@@ -230,6 +230,13 @@ nav ul li a:hover {
 
 .work {             /* Creating space above the target of a jump link. */
   padding-top: 60px;
+}
+
+/* for mobile phones */
+@media screen and (max-device-width:414px), screen and (max-width:414px) {
+    .work {             /* Creating space above the target of a jump link. */
+        padding-top: 170px;
+    }
 }
 
 .project_tile {
