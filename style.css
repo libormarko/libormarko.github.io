@@ -160,7 +160,8 @@ nav ul li a:hover {
 
 @media screen and (max-device-width:414px), screen and (max-width:414px) {
     .blogposts {
-        margin-top: 210px;
+        padding-top: 210px;
+        margin-top: -90px;
     }
 }
 
