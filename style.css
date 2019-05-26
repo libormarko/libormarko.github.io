@@ -292,8 +292,7 @@ nav ul li a:hover {
     background: #BACDD9;
     border-style: solid;
     border-width: 0;
-    border-radius: 1rem;
-    padding: 0 1rem;
+    border-radius: 0.5rem;
 }
 
 .contact_desc {
