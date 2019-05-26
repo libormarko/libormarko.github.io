@@ -128,7 +128,7 @@ nav ul li a:hover {
 /* blog */
 
 .blogposts {
-    height: 130vh;
+    height: 150vh;
     min-height: 80rem;
     background-color: white;
     width: 100%;
@@ -198,7 +198,7 @@ nav ul li a:hover {
 /* projects */
 
 .work {
-    height: 100vh;
+    height: 150vh;
     min-height: 80rem;
     background-color: #8FBDD9;
     overflow: scroll;
