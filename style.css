@@ -70,7 +70,7 @@ nav ul li a:hover {
 /* welcome section */
 
 .intro {
-    height: 120vh;
+    height: 100vh;
     min-height: 70rem;   
     background-position: center;
     display: flex;
@@ -128,7 +128,7 @@ nav ul li a:hover {
 /* blog */
 
 .blogposts {
-    height: 190vh;
+    height: 170vh;
     min-height: 80rem;
     background-color: white;
     width: 100%;
