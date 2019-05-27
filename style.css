@@ -70,7 +70,7 @@ nav ul li a:hover {
 /* welcome section */
 
 .intro {
-    height: 100vh;
+    height: 110vh;
     min-height: 70rem;   
     background-position: center;
     display: flex;
