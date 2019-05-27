@@ -318,14 +318,6 @@ nav ul li a:hover {
         line-height: 1.5;
     }
 
-    .intro {
-        height: 120vh;
-    }
-
-    .intro::before {
-        height: 120vh;
-    }
-    
     .header {
         font-size: 3.5rem;
     }
@@ -376,5 +368,15 @@ nav ul li a:hover {
         font-size: 4rem;
         line-height: 1.7;
         max-width: 100rem;
+    }
+}
+
+@media screen and (max-device-height:667px), screen and (max-height:667px) {
+    .intro {
+        height: 120vh;
+    }
+
+    .intro::before {
+        height: 120vh;
     }
 }
