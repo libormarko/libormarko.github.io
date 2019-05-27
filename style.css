@@ -343,6 +343,10 @@ nav ul li a:hover {
         margin-top: -30rem;
     }
 
+    .blogposts {
+        height: 250vh;
+    }
+    
     .blogposts_tiles {
         width: 100rem;
     }
