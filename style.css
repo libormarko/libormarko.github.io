@@ -128,8 +128,10 @@ nav ul li a:hover {
 /* blog */
 
 .blogposts {
+    /*
     height: 130vh;
     min-height: 80rem;
+    */
     background-color: white;
     width: 100%;
     color: #0378A6;
@@ -341,10 +343,11 @@ nav ul li a:hover {
         padding-top: 30rem;
         margin-top: -30rem;
     }
-
+    /*
     .blogposts {
         height: 270vh;
     }
+    */
 
     .blogposts_tiles {
         width: 100rem;
@@ -382,8 +385,9 @@ nav ul li a:hover {
     .intro::before {
         height: 120vh;
     }
-
+    /*
     .blogposts {
         height: 330vh;
     }
+    */
 }
