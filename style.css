@@ -371,6 +371,10 @@ nav ul li a:hover {
         padding-top: 30rem;
     }
 
+    .work {
+        height: 200vh;
+    }
+
     .project_pic {
         width: 70rem;
         height: auto;
@@ -400,4 +404,8 @@ nav ul li a:hover {
         height: 330vh;
     }
     */
+
+    .work {
+        height: 230vh;
+    }
 }
