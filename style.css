@@ -358,6 +358,7 @@ nav ul li a:hover {
         flex-direction: column;
         align-items: center;
         justify-content: center;
+        padding: 3rem 1.5rem;
     }
 
     .blogpost_pic {
@@ -368,6 +369,15 @@ nav ul li a:hover {
 
     .work {             /* Creating space above the target of a jump link. */
         padding-top: 30rem;
+    }
+
+    .project_pic {
+        width: 70rem;
+        height: auto;
+    }
+
+    .project_tile {
+        padding: 4rem;
     }
 
     .contact_desc {
