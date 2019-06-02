@@ -319,7 +319,6 @@ nav ul li a:hover {
     html,body {
         font-size: 3.5rem;
         line-height: 1.5;
-        scroll-behavior: smooth;
     }
 
     .header {
@@ -394,10 +393,6 @@ nav ul li a:hover {
 }
 
 @media screen and (max-device-height:667px), screen and (max-height:667px) {
-    html,body {
-        scroll-behavior: smooth;
-    }
-    
     .intro {
         height: 120vh;
     }
