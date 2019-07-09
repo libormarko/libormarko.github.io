@@ -161,7 +161,7 @@ nav ul li a:hover {
     flex-direction: row;
     align-items: flex-start;
     justify-content: center;
-    padding: 1.5rem 0rem;
+    padding: 1rem 0rem;
 }
 
 .blogpost_tile a {
@@ -182,7 +182,7 @@ nav ul li a:hover {
 
 .blogpost_pic {
     width: 15rem;
-    height: auto;
+    height: 8rem;
     padding-left: 1rem;
 }
 
