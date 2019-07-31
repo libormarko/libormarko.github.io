@@ -224,8 +224,8 @@ nav ul li a:hover {
 }
 
 .project_pic {
-    height: 20rem;
-    width: auto;
+    height: 16rem;
+    width: 30rem;
     margin: 0 1rem;
     border-style: solid;
     border-color: white;
