@@ -201,7 +201,7 @@ nav ul li a:hover {
 /* projects */
 
 .work {
-    height: 150vh;
+    height: 180vh;
     min-height: 80rem;
     background-color: #8FBDD9;
     overflow: scroll;
@@ -265,6 +265,10 @@ nav ul li a:hover {
 }
 
 .JavaScript_projects {
+    padding-top: 3rem;
+}
+
+.React_projects {
     padding-top: 3rem;
 }
 
