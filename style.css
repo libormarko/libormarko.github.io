@@ -201,8 +201,10 @@ nav ul li a:hover {
 /* projects */
 
 .work {
+    /*
     height: 195vh;
     min-height: 80rem;
+    */
     background-color: #8FBDD9;
     overflow: scroll;
     color: white;
@@ -368,7 +370,7 @@ nav ul li a:hover {
 
     .blogpost_pic {
         width: 70rem;
-        height: auto;
+        height: 40rem;
         padding: 1.5rem;
     }
 
@@ -376,13 +378,15 @@ nav ul li a:hover {
         padding-top: 30rem;
     }
 
+    /*
     .work {
         height: 200vh;
     }
+    */
 
     .project_pic {
         width: 70rem;
-        height: auto;
+        height: 40rem;
     }
 
     .project_tile {
@@ -414,8 +418,9 @@ nav ul li a:hover {
         height: 330vh;
     }
     */
-
+    /*
     .work {
         height: 230vh;
     }
+    */
 }
