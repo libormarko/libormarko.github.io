@@ -170,7 +170,7 @@ nav ul li a:hover {
     width: 60vw;
     min-width: 65rem;
     max-width: 75rem;
-    padding: 2em;
+    padding: 1em;
 }
 
 .blogpost_tile {
@@ -283,6 +283,10 @@ nav ul li a:hover {
     text-decoration: underline;
 }
 
+.html_css_projects {
+    padding-top: 3rem;
+}
+
 .JavaScript_projects {
     padding-top: 3rem;
 }
@@ -361,6 +365,12 @@ nav ul li a:hover {
         font-size: 4rem;
         line-height: 1.7;
         padding: 2rem;
+        max-width: 95rem;
+    }
+
+    .skill_desc {
+        font-size: 1.7em;
+        line-height: 1.7;
     }
 
     .blogposts {        /* Creating space above the target of a jump link. */
