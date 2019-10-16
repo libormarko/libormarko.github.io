@@ -126,6 +126,23 @@ nav ul li a:hover {
     font-family: 'Lora', serif;
 }
 
+.all_skills {
+    display: inline-block;
+}
+
+.skill_details {
+    margin: 0rem;
+    color: #fff;
+    font-size: 2rem;
+    margin: 1rem 3rem;
+    display: inline-block;
+    font-weight: 500;
+    max-width: 60rem;
+    line-height: 3.5rem;
+    text-align: center;
+    font-family: 'Lora', serif;
+}
+
 /* blog */
 
 .blogposts {
