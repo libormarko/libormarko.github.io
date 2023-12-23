@@ -37,6 +37,7 @@ export const NavBarDesktopContainer = styled.div<{ navBarItemIsHovered: string |
   background-color: ${(props) =>
     props.navBarItemIsHovered ? variables.colorBlack : variables.colorGrey30};
   align-items: center;
+  height: 100%;
   transition: background-color 0.5s cubic-bezier(0.3, 0, 0, 1);
   height: 44px;
   display: none;

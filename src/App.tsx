@@ -10,6 +10,7 @@ import { AppContainer } from './App.styles';
 // TODO move all data providing array into one central JSON?
 // TODO calculate height automatically
 // remove all // and /* and any types
+// delete other repo
 
 export const App: React.FC<any> = () => {
   return (
