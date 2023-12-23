@@ -39,6 +39,11 @@ export const NavBarDesktopContainer = styled.div<{ navBarItemIsHovered: string |
   align-items: center;
   transition: background-color 0.5s cubic-bezier(0.3, 0, 0, 1);
   height: 44px;
+  display: none;
+
+  @media only screen and (min-width: ${variables.breakpointM}px) {
+    display: block;
+  }
 `;
 
 export const WidthContainer = styled.div`
