@@ -1,6 +1,5 @@
-import styled, { css, keyframes } from 'styled-components';
+import styled from 'styled-components';
 import * as variables from '../variables';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 export const ProjectsWrapper = styled.div`
   max-width: 1920px;

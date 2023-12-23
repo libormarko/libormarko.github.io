@@ -3,10 +3,7 @@ import {
   AboutWrapper,
   GetToKnowMe,
   AboutText,
-  SkillsAndExperience,
   Skills,
-  IndustryExperience,
-  IndustryExperienceTagsWrapper,
   AboutHeadline,
   SkillTagsWrapper
 } from './About.styles';

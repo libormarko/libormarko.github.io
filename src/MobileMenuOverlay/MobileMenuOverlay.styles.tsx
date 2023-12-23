@@ -1,4 +1,4 @@
-import styled, { keyframes } from 'styled-components';
+import styled from 'styled-components';
 import * as variables from '../variables';
 
 export const MenuOverlayContainer = styled.div<{ openedMobileMenuOverlay: boolean }>`

@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import {
   ProjectTileWrapper,
   ProjectTileInfoWrapper,
@@ -7,7 +7,6 @@ import {
   ProjectTileButtons
 } from './Projects.styles';
 import { TileButton } from '../TileButton/TileButton';
-import { faChevronRight } from '@fortawesome/free-solid-svg-icons';
 
 export const ProjectTile: React.FC<any> = ({}) => {
   return (

@@ -9,10 +9,7 @@ import { AppContainer } from './App.styles';
 
 // TODO move all data providing array into one central JSON?
 // TODO calculate height automatically
-// check names and logix everywhere to see if extract or change
-// no regular html tags
-// delete unused stuff from files
-// remove all // and /* and any
+// remove all // and /* and any types
 
 export const App: React.FC<any> = () => {
   return (
