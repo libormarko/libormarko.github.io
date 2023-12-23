@@ -7,7 +7,7 @@ export const Intro: React.FC<any> = ({}) => {
   return (
     <IntroWrapper>
       <TextWrapper>
-        <Headline>Hey, I am Lorem Ipsum</Headline>
+        <Headline>Hey hey, I am Lorem Ipsum</Headline>
         <Text>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
           ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation

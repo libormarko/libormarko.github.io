@@ -75,6 +75,8 @@ export const ProjectTileText = styled.p`
 
 export const ProjectTileButtons = styled.div`
   display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 `;
 
 export const ProjectTileImage = styled.img`

@@ -8,11 +8,12 @@ export const TileButtonWrapper = styled.a`
   color: ${variables.colorBlue};
   cursor: pointer;
   justify-content: center;
-  margin: 0 10px;
+  margin: 0 10px 5px 10px;
 `;
 
 export const TileButtonLabel = styled.span`
   margin-right: ${variables.spacingXXS};
+  text-wrap: nowrap;
 `;
 
 export const FontAwesomeIconWrapper = styled(FontAwesomeIcon)`
