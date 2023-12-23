@@ -37,7 +37,6 @@ export const NavBarDesktopContainer = styled.div<{ navBarItemIsHovered: string |
   background-color: ${(props) =>
     props.navBarItemIsHovered ? variables.colorBlack : variables.colorGrey30};
   align-items: center;
-  height: 100%;
   transition: background-color 0.5s cubic-bezier(0.3, 0, 0, 1);
   height: 44px;
   display: none;
@@ -53,6 +52,7 @@ export const WidthContainer = styled.div`
   align-items: center;
   grid-template-columns: 1fr min-content;
   display: none;
+  height: 100%;
   padding: 0 ${variables.spacing3XL};
 
   @media only screen and (min-width: ${variables.breakpointM}px) {
