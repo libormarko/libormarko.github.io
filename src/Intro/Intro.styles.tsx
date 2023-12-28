@@ -24,6 +24,7 @@ export const IntroWrapper = styled.div`
   height: 100vh;
   justify-items: center;
   padding: 0 ${variables.spacingM};
+  position: relative;
 
   &:before {
     content: ' ';
