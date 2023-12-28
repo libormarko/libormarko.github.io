@@ -7,7 +7,8 @@ import {
 } from './MobileMenuOverlay.styles';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faX } from '@fortawesome/free-solid-svg-icons';
-import { navSections } from '../Navbar/NavBar';
+import { contentData } from '../contentData';
+import { scrollToTopOfPage } from '../utils/utils';
 
 export interface MobileMenuOverlayProps {
   openedMobileMenuOverlay: boolean;
@@ -25,11 +26,16 @@ export const MobileMenuOverlay: React.FC<MobileMenuOverlayProps> = ({
       </CloseButton>
 
       <StyledList openedMobileMenuOverlay={openedMobileMenuOverlay}>
-        <ProfileContainer>
-          <img src="https://avatars.githubusercontent.com/u/44037760?v=4" alt="profile-photo" />
-          <p>Libor Marko</p>
+        <ProfileContainer
+          onClick={() => {
+            closeOverlay();
+            scrollToTopOfPage();
+          }}
+        >
+          <img src={contentData.navBar.profile.photo} alt="profile-photo" />
+          <p>{contentData.navBar.profile.name}</p>
         </ProfileContainer>
-        {navSections.map((navSection, index) => {
+        {contentData.navBar.sections.map((navSection, index) => {
           return (
             <li key={index}>
               <a href={`#${navSection}`} onClick={() => closeOverlay()}>

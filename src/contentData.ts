@@ -2,6 +2,13 @@ import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import { faLinkedin, faGithub, faMedium } from '@fortawesome/free-brands-svg-icons';
 
 export const contentData = {
+  navBar: {
+    sections: ['About', 'Blog', 'Projects', 'Contact'],
+    profile: {
+      name: 'Libor Marko',
+      photo: 'https://avatars.githubusercontent.com/u/44037760?v=4'
+    }
+  },
   intro: {
     headline: 'Hey, I am Libor Marko',
     text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.',

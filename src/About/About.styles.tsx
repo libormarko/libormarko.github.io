@@ -16,8 +16,9 @@ export const AboutWrapper = styled.div`
   @media only screen and (min-width: ${variables.breakpointM}px) {
     grid-template-columns: 1fr 1fr;
     grid-column-gap: ${variables.spacing3XL};
-    padding: ${variables.spacing4XL} 0px;
+    padding: ${variables.spacing5XL} 0px;
     max-width: 85%;
+    min-height: 50vh;
   }
   @media only screen and (min-width: ${variables.breakpointL}px) {
     max-width: 75%;

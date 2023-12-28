@@ -12,8 +12,8 @@ import {
   HamburgerButton,
   WidthContainer
 } from './NavBar.styles';
-
-export const navSections = ['About', 'Blog', 'Projects', 'Contact'];
+import { scrollToTopOfPage } from '../utils/utils';
+import { contentData } from '../contentData';
 
 export const NavBar: React.FC<any> = () => {
   const [openedMobileMenuOverlay, setOpenedMobileMenuOverlay] = useState<boolean>(false);
@@ -35,15 +35,12 @@ export const NavBar: React.FC<any> = () => {
     <NavBarWrapper>
       <NavBarDesktopContainer navBarItemIsHovered={navBarItemIsHovered}>
         <WidthContainer>
-          <ProfileContainer>
-            <ProfileImage
-              src="https://avatars.githubusercontent.com/u/44037760?v=4"
-              alt="profile-photo"
-            />
-            <ProfileName>Libor Marko</ProfileName>
+          <ProfileContainer onClick={() => scrollToTopOfPage()}>
+            <ProfileImage src={contentData.navBar.profile.photo} alt="profile-photo" />
+            <ProfileName>{contentData.navBar.profile.name}</ProfileName>
           </ProfileContainer>
           <NavSectionsContainer>
-            {navSections.map((navSection, index) => {
+            {contentData.navBar.sections.map((navSection, index) => {
               return (
                 <Section
                   key={index}

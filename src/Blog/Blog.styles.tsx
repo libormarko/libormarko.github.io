@@ -15,6 +15,7 @@ export const BlogWrapper = styled.div`
 
   @media only screen and (min-width: ${variables.breakpointM}px) {
     padding-top: ${variables.spacing4XL};
+    min-height: 50vh;
   }
 `;
 

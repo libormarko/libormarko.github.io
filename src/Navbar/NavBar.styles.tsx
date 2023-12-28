@@ -63,10 +63,11 @@ export const ProfileName = styled.p``;
 
 export const ProfileImage = styled.img``;
 
-export const ProfileContainer = styled.div`
+export const ProfileContainer = styled.a`
   height: 40px;
   display: flex;
   align-items: center;
+  cursor: pointer;
 
   img {
     height: 100%;
@@ -76,7 +77,6 @@ export const ProfileContainer = styled.div`
   p {
     color: ${variables.colorGrey00};
     margin-left: ${variables.spacingM};
-    cursor: default;
   }
 `;
 
