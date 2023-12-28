@@ -1,20 +1,33 @@
 import styled from 'styled-components';
 import * as variables from '../variables';
 
+export const Container = styled.div`
+  background: ${variables.colorGrey00};
+`;
+
 export const AboutWrapper = styled.div`
   max-width: 1920px;
   margin: 0 auto;
   display: grid;
-  min-height: 100vh;
   align-content: center;
-  padding: 44px ${variables.spacingXS} 0 ${variables.spacingXS};
+  padding: ${variables.spacingXXL} ${variables.spacingM} ${variables.spacing3XL}
+    ${variables.spacingM};
 
   @media only screen and (min-width: ${variables.breakpointM}px) {
     grid-template-columns: 1fr 1fr;
     grid-column-gap: ${variables.spacing3XL};
-    padding-top: 0px;
-    padding-left: ${variables.spacingL};
-    padding-right: ${variables.spacingL};
+    padding: ${variables.spacing4XL} 0px;
+    max-width: 85%;
+  }
+  @media only screen and (min-width: ${variables.breakpointL}px) {
+    max-width: 75%;
+    grid-column-gap: ${variables.spacing5XL};
+  }
+  @media only screen and (min-width: ${variables.breakpointXL}px) {
+    max-width: 65%;
+  }
+  @media only screen and (min-width: ${variables.breakpointXXL}px) {
+    max-width: 55%;
   }
 `;
 

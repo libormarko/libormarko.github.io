@@ -9,6 +9,7 @@ export const TileButtonWrapper = styled.a`
   cursor: pointer;
   justify-content: center;
   margin: 0 10px 5px 10px;
+  text-decoration: none;
 `;
 
 export const TileButtonLabel = styled.span`

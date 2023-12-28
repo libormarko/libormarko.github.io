@@ -4,19 +4,16 @@ import * as variables from '../variables';
 export const ProjectsWrapper = styled.div`
   max-width: 1920px;
   margin: 0 auto;
-  min-height: 100vh;
   text-align: center;
-  padding-top: 48px;
+  padding: ${variables.spacing3XL} 0;
 
   @media only screen and (min-width: ${variables.breakpointM}px) {
-    padding-left: ${variables.spacingL};
-    padding-right: ${variables.spacingL};
-    padding-top: 44px;
+    padding: ${variables.spacing4XL} ${variables.spacingL};
   }
 `;
 
 export const ProjectsIntroText = styled.div`
-  padding: 0 ${variables.spacingXS};
+  padding: 0 ${variables.spacingM};
 
   @media only screen and (min-width: ${variables.breakpointM}px) {
     padding: 0;
@@ -96,6 +93,7 @@ export const LoadMoreButton = styled.button`
   transition:
     background-color 0.5s cubic-bezier(0.3, 0, 0, 1),
     width 0.5s cubic-bezier(0.3, 0, 0, 1);
+  margin-top: ${variables.spacingL};
 
   &:hover {
     cursor: pointer;

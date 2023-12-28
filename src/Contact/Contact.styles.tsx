@@ -1,10 +1,14 @@
 import styled from 'styled-components';
 import * as variables from '../variables';
 
+export const Container = styled.div`
+  background: ${variables.colorGrey00};
+`;
+
 export const ContactWrapper = styled.div`
   max-width: 1920px;
   margin: 0 auto;
-  height: 100vh;
+  min-height: 50vh;
   width: 100vw;
   display: flex;
   flex-direction: column;
@@ -13,7 +17,7 @@ export const ContactWrapper = styled.div`
 `;
 
 export const ContactIntroText = styled.div`
-  padding: 0 ${variables.spacingXS};
+  padding: 0 ${variables.spacingM};
 
   @media only screen and (min-width: ${variables.breakpointM}px) {
     padding: 0;

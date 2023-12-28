@@ -23,7 +23,22 @@ export const IntroWrapper = styled.div`
   grid-template-rows: 90% 1fr;
   height: 100vh;
   justify-items: center;
-  padding: 0 ${variables.spacingXS};
+  padding: 0 ${variables.spacingM};
+
+  &:before {
+    content: ' ';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.45;
+    background-image: url(/BerlinBackground.png);
+    background-position: 0% 70%;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
 
   @media only screen and (min-width: ${variables.breakpointM}px) {
     padding-left: ${variables.spacingL};
@@ -34,19 +49,33 @@ export const IntroWrapper = styled.div`
 export const TextWrapper = styled.div`
   margin-top: 48px;
   align-self: center;
+  text-align: center;
+  z-index: 1;
+
+  @media only screen and (min-width: ${variables.breakpointM}px) {
+    text-align: left;
+    max-width: 80%;
+  }
+  @media only screen and (min-width: ${variables.breakpointL}px) {
+    max-width: 70%;
+  }
+  @media only screen and (min-width: ${variables.breakpointXL}px) {
+    max-width: 50%;
+  }
+  @media only screen and (min-width: ${variables.breakpointXXL}px) {
+    max-width: 40%;
+  }
 `;
 
 export const Headline = styled.h1`
   font-size: 45px;
   font-weight: normal;
-  text-align: center;
   align-self: center;
 `;
 
 export const Text = styled.p`
   font-weight: normal;
   font-size: 20px;
-  text-align: center;
 `;
 
 export const ChewronDown = styled.a`

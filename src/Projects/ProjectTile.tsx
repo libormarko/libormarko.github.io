@@ -8,19 +8,20 @@ import {
 } from './Projects.styles';
 import { TileButton } from '../TileButton/TileButton';
 
-export const ProjectTile: React.FC<any> = ({}) => {
+export interface ProjectTileProps {
+  projectData: any;
+}
+
+export const ProjectTile: React.FC<ProjectTileProps> = ({ projectData }) => {
   return (
     <ProjectTileWrapper>
-      <ProjectTileImage
-        src="https://miro.medium.com/v2/resize:fit:1433/1*hq6b0Dy--KQVDs5df5agtQ.png"
-        alt="project-photo"
-      ></ProjectTileImage>
+      <ProjectTileImage src={projectData.screenshot} alt="project-photo"></ProjectTileImage>
       <ProjectTileInfoWrapper>
-        <ProjectTileHeadline>Project</ProjectTileHeadline>
+        <ProjectTileHeadline>{projectData.headline}</ProjectTileHeadline>
         <ProjectTileButtons>
-          <TileButton label={'GitHub link'} />
-          <TileButton label={'Medium link'} />
-          <TileButton label={'Test link'} />
+          {projectData.links.map((link: any, index: any) => {
+            return <TileButton label={link.name} link={link} key={index} />;
+          })}
         </ProjectTileButtons>
       </ProjectTileInfoWrapper>
     </ProjectTileWrapper>

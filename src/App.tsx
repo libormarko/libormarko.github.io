@@ -11,6 +11,8 @@ import { AppContainer } from './App.styles';
 // TODO calculate height automatically
 // remove all // and /* and any types
 // delete other repo
+// change any
+// update alt attributes
 
 export const App: React.FC<any> = () => {
   return (

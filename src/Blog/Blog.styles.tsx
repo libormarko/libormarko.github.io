@@ -7,20 +7,19 @@ export const BlogWrapper = styled.div`
   max-width: 1920px;
   margin: 0 auto;
   width: 100vw;
-  min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
 
-  padding-top: 48px;
+  padding-top: ${variables.spacing3XL};
 
   @media only screen and (min-width: ${variables.breakpointM}px) {
-    padding-top: 44px;
+    padding-top: ${variables.spacing4XL};
   }
 `;
 
 export const BlogIntroText = styled.div`
-  padding: 0 ${variables.spacingXS};
+  padding: 0 ${variables.spacingM};
 
   @media only screen and (min-width: ${variables.breakpointM}px) {
     padding: 0;
@@ -135,6 +134,8 @@ export const BlogTileHeadline = styled.h3`
 
 export const BlogTileText = styled.p`
   margin-top: 0;
+  margin-left: ${variables.spacingL};
+  margin-right: ${variables.spacingL};
 `;
 
 export const BlogTileButton = styled.a`
@@ -143,6 +144,7 @@ export const BlogTileButton = styled.a`
   color: ${variables.colorBlue};
   cursor: pointer;
   justify-content: center;
+  text-decoration: none;
 `;
 
 export const ButtonLabel = styled.span`

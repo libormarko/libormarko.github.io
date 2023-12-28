@@ -8,18 +8,19 @@ import {
 } from './Blog.styles';
 import { TileButton } from '../TileButton/TileButton';
 
-export const BlogTile: React.FC<any> = ({}) => {
+export interface BlogTileProps {
+  blogPostData: any;
+}
+
+export const BlogTile: React.FC<BlogTileProps> = ({ blogPostData }) => {
   return (
     <BlogTileWrapper>
       <BlogTileInfoWrapper>
-        <BlogTileHeadline>Blog</BlogTileHeadline>
-        <BlogTileText>Blog info text lorem ipsum</BlogTileText>
-        <TileButton label={'Medium link'} />
+        <BlogTileHeadline>{blogPostData.headline}</BlogTileHeadline>
+        <BlogTileText>{blogPostData.text}</BlogTileText>
+        <TileButton label="Medium link" link={blogPostData.link} />
       </BlogTileInfoWrapper>
-      <BlogTileImage
-        src="https://miro.medium.com/v2/resize:fit:1433/1*hq6b0Dy--KQVDs5df5agtQ.png"
-        alt="project-photo"
-      ></BlogTileImage>
+      <BlogTileImage src={blogPostData.screenshot} alt="project-photo"></BlogTileImage>
     </BlogTileWrapper>
   );
 };

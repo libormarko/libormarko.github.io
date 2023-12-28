@@ -13,16 +13,14 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import { Navigation, Mousewheel, Keyboard } from 'swiper/modules';
+import { contentData } from '../contentData';
 
 export const Blog: React.FC<any> = ({}) => {
   return (
     <BlogWrapper id="Blog">
       <BlogIntroText>
-        <BlogHeadline>Blog</BlogHeadline>
-        <BlogText>
-          Selection of personal blog posts about personal projects, that I did for fun of learning
-          and coding. More on my medium Lorem Ipsum Lorem Ipsum...
-        </BlogText>
+        <BlogHeadline>{contentData.blog.headline}</BlogHeadline>
+        <BlogText>{contentData.blog.text}</BlogText>
       </BlogIntroText>
       <SwiperWrapper>
         <StyledSwiper
@@ -42,24 +40,13 @@ export const Blog: React.FC<any> = ({}) => {
           loop={true}
           modules={[Navigation, Mousewheel, Keyboard]}
         >
-          <Slide>
-            <BlogTile />
-          </Slide>
-          <Slide>
-            <BlogTile />
-          </Slide>
-          <Slide>
-            <BlogTile />
-          </Slide>
-          <Slide>
-            <BlogTile />
-          </Slide>
-          <Slide>
-            <BlogTile />
-          </Slide>
-          <Slide>
-            <BlogTile />
-          </Slide>
+          {contentData.blog.blogsData.map((blogPost: any, index: any) => {
+            return (
+              <Slide key={index}>
+                <BlogTile blogPostData={blogPost} />
+              </Slide>
+            );
+          })}
         </StyledSwiper>
       </SwiperWrapper>
     </BlogWrapper>
