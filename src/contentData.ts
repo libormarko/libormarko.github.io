@@ -62,7 +62,7 @@ export const contentData = {
       },
       {
         headline: 'JavaScript Calculator',
-        text: 'Everybody knows what is a calculator. The first electronic one was created in the early 1960s. Nowadays...',
+        text: 'Everybody knows what is a calculator. The first electronic one was created in the early...',
         links: [
           {
             name: 'Medium link',

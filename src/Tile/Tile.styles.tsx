@@ -7,7 +7,7 @@ export const TileWrapper = styled.div`
   height: 450px;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: center;
   background-color: ${variables.colorBlack};
 `;
 
@@ -17,6 +17,7 @@ export const TileInfoWrapper = styled.div`
 
 export const TileHeadline = styled.h3`
   font-size: 20px;
+  margin-top: 0;
   margin-bottom: ${variables.spacingXS};
   color: ${variables.colorWhite};
 `;

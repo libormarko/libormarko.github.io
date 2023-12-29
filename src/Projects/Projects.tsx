@@ -15,12 +15,12 @@ import { contentData } from '../contentData';
 export const Projects: React.FC<any> = ({}) => {
   const [projectTilesHeight, setProjectTilesHeight] = useState<number>(920);
   const [loadingMoreProjectsDeltaHeight] = useState<number>(
-    useDesktopOrMobileView() === 'desktop' ? 460 : 920
+    useDesktopOrMobileView() === 'desktop' ? 460 : 960
   );
   const [areAllProjectsShownMark] = useState<number>(
     useDesktopOrMobileView() === 'desktop'
       ? Math.ceil(460 * (contentData.projects.projectsData.length / 3))
-      : 460 * contentData.projects.projectsData.length
+      : 480 * contentData.projects.projectsData.length
   );
 
   const areAllProjectTilesShown = projectTilesHeight < areAllProjectsShownMark;

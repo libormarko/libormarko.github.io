@@ -30,9 +30,10 @@ export const ProjectTilesWrapper = styled.div<{ height: number }>`
   transition: max-height 0.3s cubic-bezier(0.3, 0, 0, 1);
   overflow: hidden;
   grid-template-columns: 1fr;
-  gap: 10px;
+  gap: 30px;
 
   @media only screen and (min-width: ${variables.breakpointM}px) {
+    gap: 10px;
     grid-template-columns: 1fr 1fr 1fr;
   }
 `;
