@@ -13,7 +13,9 @@ import { Tile } from '../Tile/Tile';
 import { contentData } from '../contentData';
 
 export const Projects: React.FC<any> = ({}) => {
-  const [projectTilesHeight, setProjectTilesHeight] = useState<number>(920);
+  const [projectTilesHeight, setProjectTilesHeight] = useState<number>(
+    useDesktopOrMobileView() === 'desktop' ? 920 : 960
+  );
   const [loadingMoreProjectsDeltaHeight] = useState<number>(
     useDesktopOrMobileView() === 'desktop' ? 460 : 960
   );
