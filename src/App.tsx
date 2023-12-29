@@ -7,11 +7,10 @@ import Projects from './Projects/Projects';
 import Contact from './Contact/Contact';
 import { AppContainer } from './App.styles';
 
-// TODO move all data providing array into one central JSON?
+// TODO remove medium links from projects
 // TODO calculate height automatically
-// remove all // and /* and any types
-// delete other repo
-// change any
+// TODO remove all any types
+// delete other portfolio repo
 // update alt attributes
 
 export const App: React.FC<any> = () => {

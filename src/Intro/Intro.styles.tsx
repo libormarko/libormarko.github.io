@@ -79,7 +79,7 @@ export const TextWrapper = styled.div`
 
 export const ProfileImage = styled.img`
   border-radius: 50%;
-  width: fit-content;
+  width: auto;
   height: 250px;
   align-self: center;
 
