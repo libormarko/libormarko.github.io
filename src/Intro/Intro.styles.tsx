@@ -104,6 +104,12 @@ export const ChewronDown = styled.a`
   height: 50px;
   cursor: pointer;
   color: ${variables.colorBlack};
+  position: relative;
+  bottom: ${variables.spacing4XL};
+
+  @media only screen and (min-width: ${variables.breakpointM}px) {
+    bottom: ${variables.spacingXXL};
+  }
 
   &:hover {
     color: ${variables.colorBlue};

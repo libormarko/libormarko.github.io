@@ -21,7 +21,7 @@ export const Tile: React.FC<TileProps> = ({ tileData }) => {
         {tileData.text && <TileText>{tileData.text}</TileText>}
         <TileButtons>
           {tileData.links.map((link: any, index: any) => {
-            return <TileButton label={link.name} link={link} key={index} />;
+            return <TileButton label={link.name} link={link.url} key={index} />;
           })}
         </TileButtons>
       </TileInfoWrapper>

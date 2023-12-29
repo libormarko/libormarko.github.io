@@ -184,10 +184,6 @@ export const contentData = {
             url: 'https://github.com/libormarko/Hackernews_API'
           },
           {
-            name: 'Medium Link',
-            url: 'https://medium.com/@marko.libor/api-project-hackernews-e9213cfe7c0c'
-          },
-          {
             name: 'SandBox Link',
             url: 'https://libormarko.github.io/Hackernews/'
           }
@@ -200,10 +196,6 @@ export const contentData = {
           {
             name: 'GitHub Link',
             url: 'https://github.com/libormarko/React_Markdown_Previewer'
-          },
-          {
-            name: 'Medium Link',
-            url: 'https://medium.com/@marko.libor/react-markdown-previewer-64fa8d9896c0'
           },
           {
             name: 'SandBox Link',
@@ -220,10 +212,6 @@ export const contentData = {
             url: 'https://github.com/libormarko/Exercise_Tracker'
           },
           {
-            name: 'Medium Link',
-            url: 'https://medium.com/@marko.libor/exercise-tracker-b4f9303e0673'
-          },
-          {
             name: 'SandBox Link',
             url: 'https://glitch.com/~exercise-tracker-lm'
           }
@@ -236,10 +224,6 @@ export const contentData = {
           {
             name: 'GitHub Link',
             url: 'https://github.com/libormarko/URL_Shortener_Microservice'
-          },
-          {
-            name: 'Medium Link',
-            url: 'https://medium.com/@marko.libor/url-shortener-microservice-e841b364155c'
           },
           {
             name: 'SandBox Link',
@@ -256,10 +240,6 @@ export const contentData = {
             url: 'https://github.com/libormarko/Timestamp_Microservice'
           },
           {
-            name: 'Medium Link',
-            url: 'https://medium.com/@marko.libor/api-project-timestamp-microservice-ef860a504738'
-          },
-          {
             name: 'SandBox Link',
             url: 'https://glitch.com/~timestamp-microservice-lm'
           }
@@ -272,10 +252,6 @@ export const contentData = {
           {
             name: 'GitHub Link',
             url: 'https://github.com/libormarko/Drum_Machine'
-          },
-          {
-            name: 'Medium Link',
-            url: 'https://medium.com/@marko.libor/drum-machine-5242f2a62f75'
           },
           {
             name: 'SandBox Link',
@@ -292,10 +268,6 @@ export const contentData = {
             url: 'https://github.com/libormarko/Calculator'
           },
           {
-            name: 'Medium Link',
-            url: 'https://medium.com/@marko.libor/javascript-calculator-61df22851919'
-          },
-          {
             name: 'SandBox Link',
             url: 'https://codesandbox.io/s/javascript-calculator-niglm'
           }
@@ -308,10 +280,6 @@ export const contentData = {
           {
             name: 'GitHub Link',
             url: 'https://github.com/libormarko/Random_Quote_Machine'
-          },
-          {
-            name: 'Medium Link',
-            url: 'https://medium.com/@marko.libor/random-quote-machine-b5f7e05bdba6'
           },
           {
             name: 'SandBox Link',
@@ -328,10 +296,6 @@ export const contentData = {
             url: 'https://github.com/libormarko/Tic_Tac_Toe_Game'
           },
           {
-            name: 'Medium Link',
-            url: 'https://medium.com/@marko.libor/my-first-react-js-game-8d8b8e07731b'
-          },
-          {
             name: 'SandBox Link',
             url: 'https://codesandbox.io/s/tic-tac-toe-game-mnx4x'
           }
@@ -344,10 +308,6 @@ export const contentData = {
           {
             name: 'GitHub Link',
             url: 'https://github.com/libormarko/Caeasar-s_Cipher'
-          },
-          {
-            name: 'Medium Link',
-            url: 'https://medium.com/@marko.libor/caesars-cipher-2f1b067b586'
           }
         ],
         screenshot: 'https://miro.medium.com/max/1000/1*MLHAIUDeKvk_IQ65Ctj9lQ.png'
@@ -358,10 +318,6 @@ export const contentData = {
           {
             name: 'GitHub Link',
             url: 'https://github.com/libormarko/Roman_Numeral_Converter'
-          },
-          {
-            name: 'Medium Link',
-            url: 'https://medium.com/@marko.libor/roman-numeral-converter-ed895971b530'
           }
         ],
         screenshot: 'https://miro.medium.com/max/1000/1*JKBGxAnFaU6v4VU07R1iWQ.png'
