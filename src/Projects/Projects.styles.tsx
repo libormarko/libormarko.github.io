@@ -1,14 +1,18 @@
 import styled from 'styled-components';
 import * as variables from '../variables';
 
+export const Container = styled.div`
+  background: ${variables.colorGrey10};
+`;
+
 export const ProjectsWrapper = styled.div`
   max-width: 1920px;
   margin: 0 auto;
   text-align: center;
-  padding: ${variables.spacing3XL} 0;
+  padding: ${variables.spacingXXL} 0;
 
   @media only screen and (min-width: ${variables.breakpointM}px) {
-    padding: ${variables.spacing4XL} ${variables.spacingL};
+    padding: ${variables.spacing3XL} 0 ${variables.spacingXXL} 0;
   }
 `;
 
@@ -42,45 +46,6 @@ export const ProjectsHeadline = styled.h2`
 export const ProjectsText = styled.p`
   margin-bottom: ${variables.spacing3XL};
   margin-top: 0;
-`;
-
-export const ProjectTileWrapper = styled.div`
-  height: 450px;
-  width: 100%;
-  background-color: ${variables.colorBlack};
-  color: ${variables.colorWhite};
-  display: flex;
-  flex-direction: column;
-`;
-
-export const ProjectTileInfoWrapper = styled.div`
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-`;
-
-export const ProjectTileHeadline = styled.h3`
-  font-size: 20px;
-  margin-bottom: ${variables.spacingS};
-  color: ${variables.colorWhite};
-`;
-
-export const ProjectTileText = styled.p`
-  margin-top: 0;
-`;
-
-export const ProjectTileButtons = styled.div`
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-`;
-
-export const ProjectTileImage = styled.img`
-  width: calc(100% - 20px);
-  height: 70%;
-  object-fit: cover;
-  padding: 10px;
 `;
 
 export const LoadMoreButton = styled.button`

@@ -12,7 +12,7 @@ export const contentData = {
   intro: {
     headline: 'Hey, I am Libor Marko',
     text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.',
-    background: ''
+    profilePhoto: 'https://avatars.githubusercontent.com/u/44037760?v=4'
   },
   about: {
     getToKnowMe: {
@@ -52,67 +52,122 @@ export const contentData = {
       {
         headline: 'Random Quote Machine',
         text: 'Quotations are repetitions of someone else’s statements or thoughts. People get quite...',
-        link: 'https://medium.com/@marko.libor/random-quote-machine-b5f7e05bdba6',
+        links: [
+          {
+            name: 'Medium link',
+            url: 'https://medium.com/@marko.libor/random-quote-machine-b5f7e05bdba6'
+          }
+        ],
         screenshot: 'https://miro.medium.com/max/924/1*8wNWIJh1hPBoGFxLrYlvUQ.png'
       },
       {
         headline: 'JavaScript Calculator',
         text: 'Everybody knows what is a calculator. The first electronic one was created in the early 1960s. Nowadays...',
-        link: 'https://medium.com/@marko.libor/javascript-calculator-61df22851919',
+        links: [
+          {
+            name: 'Medium link',
+            url: 'https://medium.com/@marko.libor/javascript-calculator-61df22851919'
+          }
+        ],
         screenshot: 'https://miro.medium.com/max/1094/1*9lzI78MNqwymoy3ICQQVDg.png'
       },
       {
         headline: 'Drum Machine',
         text: 'A drum machine is an electronic musical instrument, it may imitate drum kits or other percussion...',
-        link: 'https://medium.com/@marko.libor/drum-machine-5242f2a62f75',
+        links: [
+          {
+            name: 'Medium link',
+            url: 'https://medium.com/@marko.libor/drum-machine-5242f2a62f75'
+          }
+        ],
         screenshot: 'https://miro.medium.com/max/821/1*I9W20B8v3FNMF6dOQVXYuA.png'
       },
       {
         headline: 'API Project: Hackernews',
         text: 'I finished this project a while ago. Here is a short brief post about it. Hacker News contains...',
-        link: 'https://medium.com/@marko.libor/api-project-hackernews-e9213cfe7c0c',
+        links: [
+          {
+            name: 'Medium link',
+            url: 'https://medium.com/@marko.libor/api-project-hackernews-e9213cfe7c0c'
+          }
+        ],
         screenshot: 'https://miro.medium.com/max/1433/1*hq6b0Dy--KQVDs5df5agtQ.png'
       },
       {
         headline: 'React Markdown Previewer',
         text: 'Markdown is a lightweight markup language with plain text formatting syntax. It is a simple...',
-        link: 'https://medium.com/@marko.libor/react-markdown-previewer-64fa8d9896c0',
+        links: [
+          {
+            name: 'Medium link',
+            url: 'https://medium.com/@marko.libor/react-markdown-previewer-64fa8d9896c0'
+          }
+        ],
         screenshot: 'https://miro.medium.com/max/1194/1*eRn7M0UaTHbh5uZRFip9Hg.png'
       },
       {
         headline: 'API Project: Exercise Tracker',
         text: 'API is the acronym for Application Programming Interface that allows two applications to talk to...',
-        link: 'https://medium.com/@marko.libor/exercise-tracker-b4f9303e0673',
+        links: [
+          {
+            name: 'Medium link',
+            url: 'https://medium.com/@marko.libor/exercise-tracker-b4f9303e0673'
+          }
+        ],
         screenshot: 'https://miro.medium.com/max/819/1*qVU3Zn_Yf7H0P3ft0p55cw.png'
       },
       {
         headline: 'URL Shortener Microservice',
         text: 'URL stands for Uniform Resource Locator and is used to specify addresses on the World...',
-        link: 'https://medium.com/@marko.libor/url-shortener-microservice-e841b364155c',
+        links: [
+          {
+            name: 'Medium link',
+            url: 'https://medium.com/@marko.libor/url-shortener-microservice-e841b364155c'
+          }
+        ],
         screenshot: 'https://miro.medium.com/max/1420/1*nfp2HScPVjJZR7rcPTIdOg.png'
       },
       {
         headline: 'Timestamp Microservice',
         text: 'I read about API, JSON, Node.JS many times since I started to learn web development. Finally...',
-        link: 'https://medium.com/@marko.libor/api-project-timestamp-microservice-ef860a504738',
+        links: [
+          {
+            name: 'Medium link',
+            url: 'https://medium.com/@marko.libor/api-project-timestamp-microservice-ef860a504738'
+          }
+        ],
         screenshot: 'https://miro.medium.com/max/854/1*jYCh_p6sHUJh8-EX-qtRUQ.png'
       },
       {
         headline: 'My first React game',
         text: 'Tic Tac Toe is a game everyone knows. I’ve been playing it since I was a little boy. Recently...',
-        link: 'https://medium.com/@marko.libor/my-first-react-js-game-8d8b8e07731b',
+        links: [
+          {
+            name: 'Medium link',
+            url: 'https://medium.com/@marko.libor/my-first-react-js-game-8d8b8e07731b'
+          }
+        ],
         screenshot: 'https://miro.medium.com/max/4512/1*XqkLQsvYHcAOcb4gsfKG3Q.jpeg'
       },
       {
         headline: 'Caesars Cipher',
         text: 'I completed another interesting front-end web project whose main purpose is to decrypt an encrypted...',
-        link: 'https://medium.com/@marko.libor/caesars-cipher-2f1b067b586',
+        links: [
+          {
+            name: 'Medium link',
+            url: 'https://medium.com/@marko.libor/caesars-cipher-2f1b067b586'
+          }
+        ],
         screenshot: 'https://miro.medium.com/max/1000/1*MLHAIUDeKvk_IQ65Ctj9lQ.png'
       },
       {
         headline: 'Roman Numeral Converter',
         text: 'Here is a summary of my front-end web project that converts a given number to a Roman numeral...',
-        link: 'https://medium.com/@marko.libor/roman-numeral-converter-ed895971b530',
+        links: [
+          {
+            name: 'Medium link',
+            url: 'https://medium.com/@marko.libor/roman-numeral-converter-ed895971b530'
+          }
+        ],
         screenshot: 'https://miro.medium.com/max/1000/1*JKBGxAnFaU6v4VU07R1iWQ.png'
       }
     ]
@@ -321,7 +376,7 @@ export const contentData = {
     text: 'Reach out to me on following platforms Lorem Ipsum Lorem Ipsum...',
     contactOptions: [
       {
-        name: 'E-mail',
+        name: 'Email',
         icon: faEnvelope,
         link: 'mailto:marko.libor@gmail.com'
       },

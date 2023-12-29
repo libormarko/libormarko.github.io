@@ -1,5 +1,6 @@
 import React from 'react';
 import {
+  Container,
   BlogIntroText,
   BlogWrapper,
   StyledSwiper,
@@ -8,7 +9,7 @@ import {
   BlogHeadline,
   BlogText
 } from './Blog.styles';
-import BlogTile from './BlogTile';
+import Tile from '../Tile/Tile';
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
@@ -17,39 +18,41 @@ import { contentData } from '../contentData';
 
 export const Blog: React.FC<any> = ({}) => {
   return (
-    <BlogWrapper id="Blog">
-      <BlogIntroText>
-        <BlogHeadline>{contentData.blog.headline}</BlogHeadline>
-        <BlogText>{contentData.blog.text}</BlogText>
-      </BlogIntroText>
-      <SwiperWrapper>
-        <StyledSwiper
-          breakpoints={{
-            0: {
-              slidesPerView: 1,
-              spaceBetween: 10
-            },
-            768: {
-              slidesPerView: 3,
-              spaceBetween: 10
-            }
-          }}
-          cssMode={true}
-          navigation={true}
-          keyboard={true}
-          loop={true}
-          modules={[Navigation, Mousewheel, Keyboard]}
-        >
-          {contentData.blog.blogsData.map((blogPost: any, index: any) => {
-            return (
-              <Slide key={index}>
-                <BlogTile blogPostData={blogPost} />
-              </Slide>
-            );
-          })}
-        </StyledSwiper>
-      </SwiperWrapper>
-    </BlogWrapper>
+    <Container id="Blog">
+      <BlogWrapper>
+        <BlogIntroText>
+          <BlogHeadline>{contentData.blog.headline}</BlogHeadline>
+          <BlogText>{contentData.blog.text}</BlogText>
+        </BlogIntroText>
+        <SwiperWrapper>
+          <StyledSwiper
+            breakpoints={{
+              0: {
+                slidesPerView: 1,
+                spaceBetween: 10
+              },
+              768: {
+                slidesPerView: 3,
+                spaceBetween: 10
+              }
+            }}
+            cssMode={true}
+            navigation={true}
+            keyboard={true}
+            loop={true}
+            modules={[Navigation, Mousewheel, Keyboard]}
+          >
+            {contentData.blog.blogsData.map((blogData: any, index: any) => {
+              return (
+                <Slide key={index}>
+                  <Tile tileData={blogData} />
+                </Slide>
+              );
+            })}
+          </StyledSwiper>
+        </SwiperWrapper>
+      </BlogWrapper>
+    </Container>
   );
 };
 

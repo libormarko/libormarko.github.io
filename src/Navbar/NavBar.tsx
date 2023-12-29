@@ -36,7 +36,6 @@ export const NavBar: React.FC<any> = () => {
       <NavBarDesktopContainer navBarItemIsHovered={navBarItemIsHovered}>
         <WidthContainer>
           <ProfileContainer onClick={() => scrollToTopOfPage()}>
-            <ProfileImage src={contentData.navBar.profile.photo} alt="profile-photo" />
             <ProfileName>{contentData.navBar.profile.name}</ProfileName>
           </ProfileContainer>
           <NavSectionsContainer>

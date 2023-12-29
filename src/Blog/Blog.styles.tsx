@@ -1,7 +1,10 @@
 import styled from 'styled-components';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import * as variables from '../variables';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+
+export const Container = styled.div`
+  background: ${variables.colorGrey10};
+`;
 
 export const BlogWrapper = styled.div`
   max-width: 1920px;
@@ -11,10 +14,10 @@ export const BlogWrapper = styled.div`
   flex-direction: column;
   align-items: center;
 
-  padding-top: ${variables.spacing3XL};
+  padding: ${variables.spacingXXL} 0;
 
   @media only screen and (min-width: ${variables.breakpointM}px) {
-    padding-top: ${variables.spacing4XL};
+    padding: ${variables.spacing3XL} 0 ${variables.spacingXXL} 0;
     min-height: 50vh;
   }
 `;
@@ -114,51 +117,4 @@ export const Slide = styled(SwiperSlide)`
   align-items: center;
   color: white;
   background-color: ${variables.colorBlack};
-`;
-
-export const BlogTileWrapper = styled.div`
-  width: 100%;
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-`;
-
-export const BlogTileInfoWrapper = styled.div`
-  text-align: center;
-`;
-
-export const BlogTileHeadline = styled.h3`
-  font-size: 20px;
-  margin-bottom: ${variables.spacingXS};
-`;
-
-export const BlogTileText = styled.p`
-  margin-top: 0;
-  margin-left: ${variables.spacingL};
-  margin-right: ${variables.spacingL};
-`;
-
-export const BlogTileButton = styled.a`
-  display: flex;
-  align-items: flex-end;
-  color: ${variables.colorBlue};
-  cursor: pointer;
-  justify-content: center;
-  text-decoration: none;
-`;
-
-export const ButtonLabel = styled.span`
-  margin-right: ${variables.spacingXXS};
-`;
-
-export const FontAwesomeIconWrapper = styled(FontAwesomeIcon)`
-  margin-bottom: 3px;
-`;
-
-export const BlogTileImage = styled.img`
-  width: calc(100% - 20px);
-  height: 60%;
-  object-fit: cover;
-  padding: 10px;
 `;

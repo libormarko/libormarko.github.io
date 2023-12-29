@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import {
+  Container,
   LoadMoreButton,
   ProjectsIntroText,
   ProjectsWrapper,
@@ -8,7 +9,7 @@ import {
   ProjectsText
 } from './Projects.styles';
 import { useDesktopOrMobileView } from '../hooks/useDesktopOrMobileView';
-import { ProjectTile } from './ProjectTile';
+import { Tile } from '../Tile/Tile';
 import { contentData } from '../contentData';
 
 export const Projects: React.FC<any> = ({}) => {
@@ -33,22 +34,24 @@ export const Projects: React.FC<any> = ({}) => {
   };
 
   return (
-    <ProjectsWrapper id="Projects">
-      <ProjectsIntroText>
-        <ProjectsHeadline>{contentData.projects.headline}</ProjectsHeadline>
-        <ProjectsText>{contentData.projects.text}</ProjectsText>
-      </ProjectsIntroText>
-      <ProjectTilesWrapper height={projectTilesHeight}>
-        {contentData.projects.projectsData.map((projectData, index) => {
-          return <ProjectTile key={index} projectData={projectData} />;
-        })}
-      </ProjectTilesWrapper>
-      <LoadMoreButton onClick={() => loadMoreProjects()}>
-        {areAllProjectTilesShown
-          ? contentData.projects.buttonSeeMoreProjectLabel
-          : contentData.projects.buttonSeeOnGitHubLabel}
-      </LoadMoreButton>
-    </ProjectsWrapper>
+    <Container id="Projects">
+      <ProjectsWrapper>
+        <ProjectsIntroText>
+          <ProjectsHeadline>{contentData.projects.headline}</ProjectsHeadline>
+          <ProjectsText>{contentData.projects.text}</ProjectsText>
+        </ProjectsIntroText>
+        <ProjectTilesWrapper height={projectTilesHeight}>
+          {contentData.projects.projectsData.map((projectData, index) => {
+            return <Tile key={index} tileData={projectData} />;
+          })}
+        </ProjectTilesWrapper>
+        <LoadMoreButton onClick={() => loadMoreProjects()}>
+          {areAllProjectTilesShown
+            ? contentData.projects.buttonSeeMoreProjectLabel
+            : contentData.projects.buttonSeeOnGitHubLabel}
+        </LoadMoreButton>
+      </ProjectsWrapper>
+    </Container>
   );
 };
 

@@ -1,10 +1,6 @@
 import styled from 'styled-components';
 import * as variables from '../variables';
 
-export const Container = styled.div`
-  background: ${variables.colorGrey00};
-`;
-
 export const AboutWrapper = styled.div`
   max-width: 1920px;
   margin: 0 auto;
