@@ -16,16 +16,7 @@ const scrollDown = keyframes`
 }
 `;
 
-export const IntroWrapper = styled.div`
-  max-width: 1920px;
-  margin: 0 auto;
-  display: grid;
-  grid-template-rows: 90% 1fr;
-  height: 100vh;
-  justify-items: center;
-  padding: 0 ${variables.spacingM};
-  position: relative;
-
+export const Container = styled.div`
   &:before {
     content: ' ';
     display: block;
@@ -40,6 +31,17 @@ export const IntroWrapper = styled.div`
     background-repeat: no-repeat;
     background-size: cover;
   }
+`;
+
+export const IntroWrapper = styled.div`
+  max-width: 1920px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-rows: 90% 1fr;
+  height: 100vh;
+  justify-items: center;
+  padding: 0 ${variables.spacingM};
+  position: relative;
 
   @media only screen and (min-width: ${variables.breakpointM}px) {
     padding-left: ${variables.spacingL};

@@ -11,16 +11,16 @@ export const contentData = {
   },
   intro: {
     headline: 'Hey, I am Libor Marko',
-    text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.',
+    text: 'Senior Frontend Engineer with a strong understanding of e-commerce platforms and a proven track record of implementing high-quality, performant React applications from scratch, mentoring teams, and successful continuous delivery on time.',
     profilePhoto: 'https://avatars.githubusercontent.com/u/44037760?v=4'
   },
   about: {
     getToKnowMe: {
       headline: 'Get to know me',
       text: [
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.',
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.',
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.'
+        'I am a Senior Frontend Engineer with a passion for creating user-centric digital experiences. With a background in both Web Development and Mechanical Engineering, I bring a unique blend of technical expertise and problem-solving skills to my role.',
+        'At a globally renowned consulting agency, I’ve consistently delivered a diverse range of web applications, including B2B and B2C digital platforms for major clients in the Automotive, Sport, Fashion, and Retail industries. I have a proven track record of delivering high-quality, scalable web applications over the past 5+ years. With a strong command of React, Redux, and TypeScript, I possess the core technologies needed to build modern web applications. Additionally, I’ve honed my skills working with micro frontend approaches, backend for frontend architectures, and custom React frameworks like FeatureHub and Feature Apps.',
+        'Adept at working within Agile methodologies, I have extensive experience in collaborating with multicultural Scrum teams. I am a team player who thrives in collaborative environments and is always eager to share my knowledge and expertise with junior developers on the team. My passion for continuous learning and innovation drives me to be a lifelong learner, constantly seeking new opportunities to expand my skill set and stay abreast of the latest technologies. I am excited about the ever-evolving landscape of web development, as latest by the emerging topic of Gen AI, which has the potential to make the profession of web developers even more exciting.'
       ]
     },
     mySkills: {
@@ -32,6 +32,10 @@ export const contentData = {
         'React',
         'Typescript',
         'Redux',
+        'MicroFrontEnd',
+        'BFF',
+        'FeatureHub',
+        'Feature Apps',
         'AEM',
         'GraphQL',
         'Sass',
@@ -47,7 +51,7 @@ export const contentData = {
   },
   blog: {
     headline: 'Blog',
-    text: 'Selection of personal blog posts about personal projects, that I did for fun of learning and coding. More on my medium Lorem Ipsum Lorem Ipsum...',
+    text: 'Delve into my coding journey by exploring selection of my blog posts, where I share insights from my personal projects. Learn from my experiences and gain a glimpse into my passion for web development.',
     blogsData: [
       {
         headline: 'Random Quote Machine',
@@ -174,7 +178,7 @@ export const contentData = {
   },
   projects: {
     headline: 'Projects',
-    text: 'Selection of personal projects, that I did for fun of learning and coding. More on my github Lorem Ipsum Lorem Ipsum...',
+    text: 'Join me as I share my commitment for coding and explore selection of projects I’ve tackled for personal growth and enthusiasm.',
     projectsData: [
       {
         headline: 'API Project: Hackernews',
@@ -324,12 +328,12 @@ export const contentData = {
       }
     ],
     buttonSeeMoreProjectLabel: 'Load more projects',
-    buttonSeeOnGitHubLabel: 'Click to see more on GitHub',
+    buttonSeeOnGitHubLabel: 'See more on GitHub',
     urlGitHub: 'https://github.com/libormarko'
   },
   contact: {
-    headline: 'Contact me lorem ipsum',
-    text: 'Reach out to me on following platforms Lorem Ipsum Lorem Ipsum...',
+    headline: 'Contact me',
+    text: 'If you are seeking a highly skilled and experienced Frontend Engineer who is passionate about creating well structured, clean code application, then I am the ideal candidate for you.',
     contactOptions: [
       {
         name: 'Email',
