@@ -25,7 +25,7 @@ export const Container = styled.div`
     top: 0;
     width: 100%;
     height: 100%;
-    opacity: 0.45;
+    opacity: 0.4;
     background-image: url(/BerlinBackground.png);
     background-position: 0% 60%;
     background-repeat: no-repeat;
