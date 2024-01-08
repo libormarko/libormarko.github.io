@@ -3,6 +3,7 @@ export const colorGrey30 = '#161617cc';
 export const colorGrey20 = '#333333';
 export const colorGrey10 = '#D6D6D6';
 export const colorGrey00 = '#F5F5F7';
+export const colorLightBlue = '#9cd7f2';
 export const colorBlue = '#2997FF';
 export const colorBackground = '#FBFBFD';
 export const colorWhite = '#FFFFFF';

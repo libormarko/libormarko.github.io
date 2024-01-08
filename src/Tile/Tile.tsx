@@ -25,7 +25,7 @@ export const Tile: React.FC<TileProps> = ({ tileData }) => {
           })}
         </TileButtons>
       </TileInfoWrapper>
-      <TileImage src={tileData.screenshot} alt="project-photo"></TileImage>
+      <TileImage src={tileData.screenshot} alt="project-screenshot"></TileImage>
     </TileWrapper>
   );
 };
