@@ -9,11 +9,15 @@ export const ContactWrapper = styled.div`
   max-width: 1920px;
   margin: 0 auto;
   min-height: 50vh;
-  width: 100vw;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding: 0 ${variables.spacingL};
+
+  @media only screen and (min-width: ${variables.breakpointM}px) {
+    padding: 0 ${variables.spacing4XL};
+  }
 `;
 
 export const ContactIntroText = styled.div`
