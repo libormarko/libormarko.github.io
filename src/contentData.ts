@@ -54,15 +54,16 @@ export const contentData = {
     text: 'Here you can find selection of blog posts, where I share insights from my learnings.',
     blogsData: [
       {
-        headline: 'Blogpost headline',
-        text: 'Blogpost intro text',
+        headline: 'Rebrushed Portfolio Page',
+        text: '',
         links: [
           {
             name: 'Medium link',
             url: ''
           }
         ],
-        screenshot: ''
+        screenshot:
+          'https://raw.githubusercontent.com/libormarko/libormarko.github.io/master/screenshot.png'
       }
     ]
   },
@@ -71,18 +72,19 @@ export const contentData = {
     text: 'Explore collection of projects I’ve been working on.',
     projectsData: [
       {
-        headline: 'Project headline',
+        headline: 'Rebrushed Portfolio Page',
         links: [
           {
             name: 'GitHub Link',
-            url: ''
+            url: 'https://github.com/libormarko/libormarko.github.io'
           },
           {
             name: 'SandBox Link',
-            url: ''
+            url: 'https://libormarko.github.io/'
           }
         ],
-        screenshot: ''
+        screenshot:
+          'https://raw.githubusercontent.com/libormarko/libormarko.github.io/master/screenshot.png'
       }
     ],
     buttonSeeMoreProjectLabel: 'Load more projects',

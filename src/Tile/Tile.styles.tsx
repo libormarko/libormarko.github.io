@@ -44,6 +44,6 @@ export const FontAwesomeIconWrapper = styled(FontAwesomeIcon)`
 export const TileImage = styled.img`
   width: calc(100% - 20px);
   height: 60%;
-  object-fit: cover;
+  object-fit: contain;
   padding: 10px;
 `;
