@@ -10,8 +10,8 @@ import { AppContainer } from './App.styles';
 // TODO remove medium links from projects
 // TODO calculate height automatically
 // TODO remove all any types
-// delete other portfolio repo
-// update alt attributes
+// TODO update alt attributes
+// TODO delete other portfolio repo
 
 export const App: React.FC<any> = () => {
   return (

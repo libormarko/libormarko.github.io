@@ -93,7 +93,7 @@ export const contentData = {
   },
   contact: {
     headline: 'Contact me',
-    text: 'If you are looking for an experienced Frontend Engineer who likes creating well structured, clean code web applications, then I am the ideal candidate for you.',
+    text: 'If you are looking for an experienced Senior Frontend Engineer who likes creating well structured, clean code web applications, then I am the ideal candidate for you.',
     contactOptions: [
       {
         name: 'Email',
