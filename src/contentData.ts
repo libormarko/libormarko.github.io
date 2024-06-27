@@ -11,7 +11,7 @@ export const contentData = {
   },
   intro: {
     headline: 'Hey, I am Libor Marko',
-    text: 'Senior Frontend Engineer with a history of successfully implementing high-quality, performant React applications from scratch, continuous delivery on time, and mentoring team members.',
+    text: 'Senior Frontend Engineer with a continued history of successfully implementing high-quality, performant React applications from scratch, continuous delivery on time and mentoring team members.',
     profilePhoto: 'https://avatars.githubusercontent.com/u/44037760?v=4'
   },
   about: {
@@ -19,8 +19,8 @@ export const contentData = {
       headline: 'Get to know me',
       text: [
         'I’m an experienced Frontend Developer with a passion for creating responsive, user-friendly websites. My background in both Web Development and Mechanical Engineering gives me a unique combination of technical skills and problem-solving abilities.',
-        'At Accenture, I’ve consistently delivered a range of web applications, including B2B and B2C digital platforms for major clients in the Automotive, Sport, Fashion, and Retail industries. I have a proven track record of delivering high-quality, scalable web applications using modern frontend technologies such as React, Redux, and TypeScript, wrapped up in Microfrontend architecture.',
-        'With experience working in multicultural Agile teams, I’m a collaborative team player who thrives on learning and sharing knowledge.'
+        'At Accenture, I’ve consistently been delivering a range of web applications, including B2B and B2C digital platforms for major clients in the Automotive, Sport, Fashion and Retail industries. I have a proven track record of delivering high-quality, scalable web applications using modern frontend technologies such as React, Redux and TypeScript, wrapped up in Microfrontend architecture.',
+        'With experience working in multicultural Agile teams in Scrum and Kanban setups, I’m a collaborative team player who thrives on learning and sharing knowledge.'
       ]
     },
     mySkills: {
@@ -64,6 +64,18 @@ export const contentData = {
         ],
         screenshot:
           'https://raw.githubusercontent.com/libormarko/libormarko.github.io/master/screenshot.png'
+      },
+      {
+        headline: 'Book Skate Lessons Project',
+        text: '',
+        links: [
+          {
+            name: 'Medium link',
+            url: ''
+          }
+        ],
+        screenshot:
+          'https://raw.githubusercontent.com/libormarko/Book_Skate_Lessons/main/screenshot.png'
       }
     ]
   },
@@ -77,14 +89,25 @@ export const contentData = {
           {
             name: 'GitHub Link',
             url: 'https://github.com/libormarko/libormarko.github.io'
-          },
-          {
-            name: 'SandBox Link',
-            url: 'https://libormarko.github.io/'
           }
         ],
         screenshot:
           'https://raw.githubusercontent.com/libormarko/libormarko.github.io/master/screenshot.png'
+      },
+      {
+        headline: 'Book Skate Lessons Project',
+        links: [
+          {
+            name: 'GitHub Link',
+            url: 'https://github.com/libormarko/libormarko.github.io'
+          },
+          {
+            name: 'Project Link',
+            url: 'https://libormarko.github.io/Book_Skate_Lessons/'
+          }
+        ],
+        screenshot:
+          'https://raw.githubusercontent.com/libormarko/Book_Skate_Lessons/main/screenshot.png'
       }
     ],
     buttonSeeMoreProjectLabel: 'Load more projects',

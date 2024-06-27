@@ -34,6 +34,11 @@ export const ProjectTilesWrapper = styled.div<{ height: number }>`
 
   @media only screen and (min-width: ${variables.breakpointM}px) {
     gap: 10px;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  @media only screen and (min-width: ${variables.breakpointL}px) {
+    gap: 10px;
     grid-template-columns: 1fr 1fr 1fr;
   }
 `;

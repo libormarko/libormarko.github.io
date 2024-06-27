@@ -25,7 +25,7 @@ export const About: React.FC<any> = ({}) => {
         <AboutHeadline>{contentData.about.mySkills.headline}</AboutHeadline>
         <SkillTagsWrapper>
           {contentData.about.mySkills.skillTags.map((skill, index) => {
-            return <Tag key={index} label={skill} />;
+            return <Tag key={index} label={`#${skill}`} />;
           })}
         </SkillTagsWrapper>
       </Skills>

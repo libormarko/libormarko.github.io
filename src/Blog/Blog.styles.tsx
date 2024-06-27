@@ -50,6 +50,10 @@ export const BlogText = styled.p`
 
 export const SwiperWrapper = styled.div`
   width: 100%;
+
+  @media only screen and (min-width: ${variables.breakpointL}px) {
+    width: 70%;
+  }
 `;
 
 export const StyledSwiper = styled(Swiper)`

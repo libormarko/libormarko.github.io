@@ -5,15 +5,17 @@ import {
   TileText,
   TileImage,
   TileInfoWrapper,
-  TileButtons
+  TileButtons,
+  TileImageWrapper
 } from './Tile.styles';
 import { TileButton } from '../TileButton/TileButton';
 
 export interface TileProps {
   tileData: any;
+  isSliderTile?: boolean;
 }
 
-export const Tile: React.FC<TileProps> = ({ tileData }) => {
+export const Tile: React.FC<TileProps> = ({ tileData, isSliderTile }) => {
   return (
     <TileWrapper>
       <TileInfoWrapper>
@@ -25,7 +27,9 @@ export const Tile: React.FC<TileProps> = ({ tileData }) => {
           })}
         </TileButtons>
       </TileInfoWrapper>
-      <TileImage src={tileData.screenshot} alt="project-screenshot"></TileImage>
+      <TileImageWrapper isSliderTile={isSliderTile}>
+        <TileImage src={tileData.screenshot} alt="project-screenshot"></TileImage>
+      </TileImageWrapper>
     </TileWrapper>
   );
 };

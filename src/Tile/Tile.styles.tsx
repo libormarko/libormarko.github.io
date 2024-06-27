@@ -42,8 +42,18 @@ export const FontAwesomeIconWrapper = styled(FontAwesomeIcon)`
 `;
 
 export const TileImage = styled.img`
-  width: calc(100% - 20px);
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+`;
+
+export const TileImageWrapper = styled.div<{ isSliderTile?: boolean }>`
+  width: calc(100% - 40px);
   height: 60%;
-  object-fit: contain;
   padding: 10px;
+  align-self: center;
+
+  @media only screen and (min-width: ${variables.breakpointM}px) {
+    width: ${(props) => (props.isSliderTile ? '60%' : 'calc(100% - 40px)')};
+  }
 `;

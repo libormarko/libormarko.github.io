@@ -32,7 +32,7 @@ export const Blog: React.FC<any> = ({}) => {
                 spaceBetween: 10
               },
               768: {
-                slidesPerView: 3,
+                slidesPerView: 1,
                 spaceBetween: 10
               }
             }}
@@ -45,7 +45,7 @@ export const Blog: React.FC<any> = ({}) => {
             {contentData.blog.blogsData.map((blogData: any, index: any) => {
               return (
                 <Slide key={index}>
-                  <Tile tileData={blogData} />
+                  <Tile tileData={blogData} isSliderTile />
                 </Slide>
               );
             })}
