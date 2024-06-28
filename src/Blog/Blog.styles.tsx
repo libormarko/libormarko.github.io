@@ -52,7 +52,7 @@ export const SwiperWrapper = styled.div`
   width: 100%;
 
   @media only screen and (min-width: ${variables.breakpointL}px) {
-    width: 70%;
+    width: 50%;
   }
 `;
 

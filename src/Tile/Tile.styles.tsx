@@ -49,11 +49,18 @@ export const TileImage = styled.img`
 
 export const TileImageWrapper = styled.div<{ isSliderTile?: boolean }>`
   width: calc(100% - 40px);
-  height: 60%;
+  height: calc(((100vw - 40px) / 4) * 3);
   padding: 10px;
   align-self: center;
 
   @media only screen and (min-width: ${variables.breakpointM}px) {
     width: ${(props) => (props.isSliderTile ? '60%' : 'calc(100% - 40px)')};
+    height: ${(props) =>
+      props.isSliderTile ? 'calc(((60vw - 100px) / 4) * 3)' : 'calc(((50vw - 100px) / 4) * 3)'};
+  }
+
+  @media only screen and (min-width: ${variables.breakpointL}px) {
+    width: ${(props) => (props.isSliderTile ? '80%' : 'calc(100% - 80px)')};
+    height: ${(props) => (props.isSliderTile ? '75%' : '50%')};
   }
 `;
