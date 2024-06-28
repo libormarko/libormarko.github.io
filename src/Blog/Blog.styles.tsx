@@ -59,17 +59,12 @@ export const SwiperWrapper = styled.div`
 export const StyledSwiper = styled(Swiper)`
   height: 450px;
 
-  @media only screen and (min-width: ${variables.breakpointM}px) {
-    padding-left: ${variables.spacingXXL};
-    padding-right: ${variables.spacingXXL};
-  }
-
   .swiper-button-prev {
-    left: 12.5px;
+    left: 25px;
   }
 
   .swiper-button-next {
-    right: 12.5px;
+    right: 25px;
   }
 
   .swiper-button-prev,
@@ -112,6 +107,18 @@ export const StyledSwiper = styled(Swiper)`
 
   .swiper-slide {
     height: unset;
+  }
+
+  @media only screen and (min-width: ${variables.breakpointM}px) {
+    padding-left: ${variables.spacingXXL};
+    padding-right: ${variables.spacingXXL};
+    .swiper-button-prev {
+      left: 12.5px;
+    }
+
+    .swiper-button-next {
+      right: 12.5px;
+    }
   }
 `;
 
