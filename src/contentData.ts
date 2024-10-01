@@ -54,28 +54,28 @@ export const contentData = {
     text: 'Here you can find selection of blog posts, where I share insights from my learnings.',
     blogsData: [
       {
+        headline: 'Book Skate Lessons Project',
+        text: '',
+        links: [
+          {
+            name: 'Medium Link',
+            url: 'https://medium.com/@marko.libor/new-mvp-project-book-skate-lessons-a5d951fee535'
+          }
+        ],
+        screenshot:
+          'https://raw.githubusercontent.com/libormarko/Book_Skate_Lessons/main/screenshot.png'
+      },
+      {
         headline: 'Rebrushed Portfolio Page',
         text: '',
         links: [
           {
-            name: 'Medium link',
+            name: 'Medium Link',
             url: ''
           }
         ],
         screenshot:
           'https://raw.githubusercontent.com/libormarko/libormarko.github.io/master/screenshot.png'
-      },
-      {
-        headline: 'Book Skate Lessons Project',
-        text: '',
-        links: [
-          {
-            name: 'Medium link',
-            url: ''
-          }
-        ],
-        screenshot:
-          'https://raw.githubusercontent.com/libormarko/Book_Skate_Lessons/main/screenshot.png'
       }
     ]
   },
@@ -84,6 +84,25 @@ export const contentData = {
     text: 'Explore collection of projects I’ve been working on.',
     projectsData: [
       {
+        headline: 'Book Skate Lessons Project',
+        links: [
+          {
+            name: 'Medium Link',
+            url: 'https://medium.com/@marko.libor/new-mvp-project-book-skate-lessons-a5d951fee535'
+          },
+          {
+            name: 'GitHub Link',
+            url: 'https://github.com/libormarko/libormarko.github.io'
+          },
+          {
+            name: 'Project Demo Link',
+            url: 'https://libormarko.github.io/Book_Skate_Lessons/'
+          }
+        ],
+        screenshot:
+          'https://raw.githubusercontent.com/libormarko/Book_Skate_Lessons/main/screenshot.png'
+      },
+      {
         headline: 'Rebrushed Portfolio Page',
         links: [
           {
@@ -93,21 +112,6 @@ export const contentData = {
         ],
         screenshot:
           'https://raw.githubusercontent.com/libormarko/libormarko.github.io/master/screenshot.png'
-      },
-      {
-        headline: 'Book Skate Lessons Project',
-        links: [
-          {
-            name: 'GitHub Link',
-            url: 'https://github.com/libormarko/libormarko.github.io'
-          },
-          {
-            name: 'Project Link',
-            url: 'https://libormarko.github.io/Book_Skate_Lessons/'
-          }
-        ],
-        screenshot:
-          'https://raw.githubusercontent.com/libormarko/Book_Skate_Lessons/main/screenshot.png'
       }
     ],
     buttonSeeMoreProjectLabel: 'Load more projects',
